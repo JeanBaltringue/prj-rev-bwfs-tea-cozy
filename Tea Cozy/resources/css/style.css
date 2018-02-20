@@ -1,0 +1,170 @@
+/* Global styles */
+
+*{
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0,9;
+  text-align: center;
+}
+
+body{
+  margin:0;
+  font-size: 22px;
+}
+
+/* Header styles */
+
+header{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+header img{
+  height: 50px;
+  margin: 10px;
+}
+
+nav span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Body styles */
+
+.main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+  width: 100%;
+  height: 100%;
+}
+
+  /* "Our Mission" styles */
+
+.mission{
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height:700px;
+  width: 1200px;
+}
+
+.mission-textbox{
+  width:100%;
+}
+
+.mission-textbox h2{
+  margin: 0;
+  padding: 10px 0;
+}
+
+.mission-textbox h4{
+  margin: 0;
+  padding: 10px 0;
+}
+
+  /* "Tea of the month?" styles */
+
+.teamonth{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 1200px;
+}
+
+.teamonth-textbox{
+  width:1000px;
+  padding-top: 50px;
+}
+
+.teamonth-pictures{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+.picture-caption{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.teamonth img{
+  width: 300px;
+  height: 200px;
+}
+
+.teamonth-pictures h4{
+  margin: 10px 0;
+}
+
+  /* "Location" styles */
+
+.locations{
+    display: block;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin-top: 50px;
+    padding-top: 70px;
+  }
+
+.box-container{
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height:280px;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.box h3{
+  margin: 20px 0;
+}
+
+.box span{
+  margin: 20px 0;
+}
+
+.locations h2{
+  background-color: transparent;
+}
+
+  /* "Contact" & Footer styles */
+
+.contact{
+  height: 200px;
+  width: 100%;
+}
+
+.contact h2{
+  margin: 10px 0;
+
+}
+
+.contact h5{
+
+}
+
+footer h5{
+  text-align: left;
+  margin-left: 20px;
+}
